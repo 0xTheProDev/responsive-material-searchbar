@@ -73,17 +73,6 @@
 .mdh-expandable-search input:-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    #FFFFFF;
 }
-
-
-/* Bug fix: https://github.com/google/material-design-lite/issues/1078
- * To much padding on the left of header when the menu button is hidden */
-@media screen and (min-width: 851px) {
-  .mdl-layout__header-row {
-    padding: 0 40px 0 40px;
-  }
-}
-
-/* Bug fix for badges being in the wrong location */
 .mdl-badge[data-badge]:after {
   right: -7px;
   top: -8px;
