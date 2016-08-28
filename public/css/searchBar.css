@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+.mdl-layout__header-row {
+  padding-left: 60px;
+}
+
 /* TODO: Hover and Focus state.
  *       Fix position of mobile search button.
  */
