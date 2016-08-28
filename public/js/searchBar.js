@@ -1,0 +1,6 @@
+/*
+  Responsive Material Searchbar
+  Progyan Bhattacharya <bprogyan@gmail.com>
+  GNU GENERAL PUBLIC LICENSE
+*/
+!function(){"use strict";document.querySelector(".mdh-toggle-search").addEventListener("click",function(){if("search"==this.querySelector("i").innerText){this.querySelector("i").innerText="cancel",this.classList.remove("mdl-cell--hide-tablet","mdl-cell--hide-desktop"),[].forEach.call(document.querySelectorAll(".mdl-layout__drawer-button, .mdl-layout-title, .mdl-badge, .nav-button, .mdl-layout-spacer"),function(a){a.style.display="none"}),document.querySelector(".mdl-layout__header-row").style.paddingLeft="16px";var a=document.querySelector(".mdh-expandable-search");a.classList.remove("mdl-cell--hide-phone"),a.style.margin="0 16px 0 0"}else{this.querySelector("i").innerText="search",this.classList.add("mdl-cell--hide-tablet","mdl-cell--hide-desktop"),[].forEach.call(document.querySelectorAll(".mdl-layout__drawer-button, .mdl-layout-title, .mdl-badge, .nav-button, .mdl-layout-spacer"),function(a){a.style.display="block"}),document.querySelector(".mdl-layout__header-row").style.paddingLeft="";var a=document.querySelector(".mdh-expandable-search");a.classList.add("mdl-cell--hide-phone"),a.style.margin="0 50px"}})}();
